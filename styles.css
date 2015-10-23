@@ -13,12 +13,7 @@ ul li{
 	border:1px solid black;
 }
 
-table.chess-table tr:nth-child(odd) td:nth-child(even){
-	background-color: #613535;
-	width:75px;
-	height:75px;
-}
-
+table.chess-table tr:nth-child(odd) td:nth-child(even),
 table.chess-table tr:nth-child(even) td:nth-child(odd){
 	background-color: #613535;
 	width:75px;
@@ -26,12 +21,7 @@ table.chess-table tr:nth-child(even) td:nth-child(odd){
 }
 
 
-table.chess-table tr:nth-child(even) td:nth-child(even){
-	background-color: #dcc27a;
-	width:75px;
-	height:75px;
-}
-
+table.chess-table tr:nth-child(even) td:nth-child(even),
 table.chess-table tr:nth-child(odd) td:nth-child(odd){
 	background-color: #dcc27a;
 	width:75px;
